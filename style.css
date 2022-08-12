@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    width: 1200px;
+    height: 100vh;
+    left: 200px;
+}
+
+/*Navbar*/
+
+nav {
+    background-color: black;
+    color: white;
+    height: 70px;
+}
+
+nav>div>img {
+    margin: 0;
+    width: 80px;
+}
+
+.navbar div:first-child {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+.line::after {
+    content: "";
+    width: 1px;
+    height: 40px;
+    background-color: #fff;
+    position: absolute;
+    top: 15px;
+    left: 250px;
+}
+
+.list {
+    position: absolute;
+    top: 25px;
+    left: 300px;
+}
+
+.list-item {
+    display: inline;
+    margin-left: 40px;
+    font-family: Montserrat;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.list-item:first-child {
+    margin-right: 20px;
+
+}
+
+.list-item:first-child::after {
+    content: "⌄";
+    position: absolute;
+    columns: white;
+    top: -0.5px;
+    left: 80px;
+}
+
+.button-small {
+    margin: 0;
+    padding: 5px 20px;
+    background-color: #b130c2;
+    border: 2px solid #b130c2;
+    border-radius: 5px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.navbar div:nth-child(4) {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+/*bottom container*/
+
+.hero {
+    background: url('./assets/bg.png');
+    height: 90.5vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    top: 215px;
+    text-align: center;
+    left: 230px;
+    width: 750px;
+    font-size: 65px;
+    font-family: Montserrat;
+}
+
+p {
+    color: white;
+    font-family: Montserrat;
+    position: absolute;
+    top: 380px;
+    text-align: center;
+    left: 330px;
+    font-size: 23.5px;
+}
+
+.button-large {
+    position: absolute;
+    padding: 10px 15px;
+    background-color: #b130c2;
+    border: 2px solid #b130c2;
+    font-family: Montserrat;
+    color: white;
+    font-size: 25px;
+    top: 465px;
+    left: 465px;
+    border-radius: 10px;
+    cursor: pointer;
+}
