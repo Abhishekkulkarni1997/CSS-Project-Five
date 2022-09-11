@@ -12,7 +12,7 @@
 ### Time Required to finish the project
     (1 hrs)
 
- [Deployed Link](https://css-html-project-five.netlify.app/)
+ [Deployed Link](https://project-5-dao-token-landingpage.netlify.app/)
 
 ![badge](https://img.shields.io/badge/Deployment-Up-green)
 
